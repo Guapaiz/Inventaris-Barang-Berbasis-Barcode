@@ -1,0 +1,32 @@
+
+
+@media (max-width: 768px) {
+    #accordionSidebar {
+        display: none !important;
+    }
+
+    body {
+        padding-bottom: 60px; /* beri ruang agar konten tidak tertutup bottom bar */
+    }
+}
+
+.fixed-bottom a {
+    flex: 1;
+    padding: 4px 0;
+    text-decoration: none;
+}
+
+.fixed-bottom a.fw-bold {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 2px solid #fff;
+}
+
+@media (max-width: 400px) {
+    .btn {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.85rem;
+    }
+}
+
+
+
