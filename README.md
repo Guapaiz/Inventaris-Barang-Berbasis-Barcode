@@ -60,12 +60,3 @@ Nama: Guapaiz
 
 GitHub: @Guapaiz
 
-
----
-
-Setelah seluruh isi file lama ditimpa dengan teks di atas, simpan file (`Ctrl + S`), lalu jalankan perintah ini di terminal untuk memperbarui GitHub:
-
-```bash
-git add README.md
-git commit -m "docs: update professional README for portfolio"
-git push origin main
